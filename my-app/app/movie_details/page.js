@@ -1,4 +1,5 @@
-import Movie from "./details.js";
+import Movie from "./movie_data.js";
+import styles from "./page.css";
 
 
 function Box(){

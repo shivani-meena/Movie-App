@@ -1,7 +1,7 @@
 function Movie() {
 	return (
 		<div>
-			This is a movie div
+			This is simi 
 		</div>
 	);
 	
