@@ -1,3 +1,187 @@
+*{
+	box-sizing:border-box;
+	}
+
 body{
-	background-color:green;
+	margin:0px;
+	background-color:#0e0e15;
+	}
+	
+.abc{
+	height:2000px;
+	margin:0px auto 0px auto;
 }
+
+.head{
+	border-bottom:solid red 1px;
+	height:150px;
+	}
+	
+	
+.div{
+	width:1280px;
+	height:200px;
+	}
+	
+.header_image{
+	margin:30px 0px 0px 120px;
+	}
+
+.movie_row{
+	border-bottom:solid  1px #5e5e75;
+	height:350px;
+	width:1300px;
+	margin:0px auto 10px auto;
+	}
+.watch_2{
+	margin-top:100px;
+	margin-left:260px;
+	}
+
+	
+.foot{
+	margin:50px 0px 0px 0px;
+	border-top:solid hotpink 2px;
+	border-bottom:solid hotpink 1px;
+	height:150px;
+	background: #272734;
+	} 
+	
+.image1{
+	margin-top:20px;
+	float:left;
+	}
+	
+.movie_hub{
+	margin-left:20px;
+	margin-bottom:15px;
+}	
+
+.watch{
+	margin-left:1250px;
+	margin-bottom:10px;
+	height:15px;
+	}
+	
+.add_movie{
+	float:right;
+	margin-top:65px;
+	margin-right:100px;
+	height:15px;
+	}
+	
+h2,h3{
+	color:white;
+	}
+	
+h2{
+	margin-top:60px;
+	margin-left:10px;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
