@@ -1,21 +1,32 @@
-function Movie() {
+import Action from "./Action_row.js";
+import Delete from "./delete.js";
+import {movie_list} from "./movie_list.js";
+
+function Movie(props) {
+	const handleDelete = () => {
+    props.deleteMovie(props.movieDetails.id);
+    }
 	return (
 		<>
 			<div className="movie_row">
-				<img className="image1 "src="image 1.png"/>
-				<div className="movie_details">
-					<h2></h2>
-					<p></p>
-					<h3></h3>
-					<p></p>
-				
+				<div className="movie_image">
+					<img className="movie_image" src={props.movieDetails.image_url}/>
 				</div>
+				<div className="movie_details">
+					<h2>{props.movieDetails.movie}</h2>
+					<p>{props.movieDetails.year} • {props.movieDetails.time} | {props.movieDetails.jener}</p>
+					<h4>description</h4>
+					<p>{props.movieDetails.description}</p>
+					<div className="all_buttons">
+						<Action />
+						<Delete />
+					</div>
+				</div>
+
 			</div>
 		</>
 	);
-	
 };
-
 export default Movie;
 
 

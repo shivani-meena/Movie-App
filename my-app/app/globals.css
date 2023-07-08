@@ -15,6 +15,7 @@ body{
 .head{
 	border-bottom:solid red 1px;
 	height:150px;
+	margin-bottom:100px;
 	}
 	
 	
@@ -29,13 +30,14 @@ body{
 
 .movie_row{
 	border-bottom:solid  1px #5e5e75;
-	height:350px;
-	width:1300px;
-	margin:0px auto 10px auto;
+	height:300px;
+	width:1000px;
+	margin:60px auto 10px auto;
 	}
+	
 .watch_2{
-	margin-top:100px;
-	margin-left:260px;
+	margin-top:120px;
+	margin-left:400px;
 	}
 
 	
@@ -48,7 +50,6 @@ body{
 	} 
 	
 .image1{
-	margin-top:20px;
 	float:left;
 	}
 	
@@ -70,35 +71,71 @@ body{
 	height:15px;
 	}
 	
-h2,h3{
-	color:white;
-	}
-	
 h2{
-	margin-top:60px;
-	margin-left:10px;
+	color:white;
+	margin:0px;
+  	line-height: 0.8;
+	font-size:36px;
 	}
+p{
+	font-size:12px;
+ }
+ 
+h4{
+	margin:0px;
+  	line-height: 0.8;
+  	}
+	
+	
+.movie_details {
+	border:solid pink 1px;
+	width:700px;
+	height:255px;
+	margin-left:230px;
+	color:white;        
 
+	}
 	
+.movie_image{
+	border:solid green 1px;
+	float:left;
+	height:255px;
+	}
 	
+.all_buttons{
+	border:solid blue 1px;
+	margin-top:90px;
+}
+
+.delete{
+	float:right;
+	margin-bottom:100px;
+	}
 	
+.rating{
+	border:solid 1px;
+	width:40px;
+	height:40px;
+	float:left;
+	margin:0px 15px 0px 15px;
+	}
 	
+.like{
+	float:left;
+	cursor:pointer;
+	} 
 	
+.dislike{
+	float:left;
+	cursor:pointer;
+	}	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+.rating{
+	text-align:center;
+	line-height:40px;
+	font-weight:bold;
+	font-size:20px;
+	}
 	
 	
 	
