@@ -31,18 +31,17 @@ body{
 .movie_row{
 	border-bottom:solid  1px #5e5e75;
 	height:300px;
-	width:1000px;
+	width:930px;
 	margin:60px auto 10px auto;
 	}
 	
 .watch_2{
 	margin-top:120px;
-	margin-left:400px;
 	}
 
 	
-.foot{
-	margin:50px 0px 0px 0px;
+.footer{
+	margin:300px 0px 0px 0px;
 	border-top:solid hotpink 2px;
 	border-bottom:solid hotpink 1px;
 	height:150px;
@@ -71,15 +70,11 @@ body{
 	height:15px;
 	}
 	
-h2{
+h1{
 	color:white;
 	margin:0px;
   	line-height: 0.8;
-	font-size:36px;
 	}
-p{
-	font-size:12px;
- }
  
 h4{
 	margin:0px;
@@ -90,7 +85,7 @@ h4{
 .movie_details {
 	border:solid pink 1px;
 	width:700px;
-	height:255px;
+	height:210px;
 	margin-left:230px;
 	color:white;        
 
@@ -102,20 +97,28 @@ h4{
 	height:255px;
 	}
 	
-.all_buttons{
+.action{
 	border:solid blue 1px;
-	margin-top:90px;
+	height:40px;
+	width:700px;
+	margin-left:230px;
+	margin-top:5px;
+	font-size:20px;
+	text-align:center;
+	line-height:40px;
+	color:white;
 }
 
 .delete{
 	float:right;
 	margin-bottom:100px;
+	cursor:pointer;
 	}
 	
 .rating{
-	border:solid 1px;
-	width:40px;
-	height:40px;
+	background-color:#272734;
+	width:45px;
+	height:45px;
 	float:left;
 	margin:0px 15px 0px 15px;
 	}
@@ -133,13 +136,20 @@ h4{
 .rating{
 	text-align:center;
 	line-height:40px;
-	font-weight:bold;
 	font-size:20px;
+  	border-radius: 50%;
 	}
 	
+.foot{
+	margin-left:70px;
+	margin-top:80px;	
+	}	
 	
-	
-	
+.new{
+	border:solid white 1px;
+	height:100px;
+	width:200px;
+	}
 	
 	
 	

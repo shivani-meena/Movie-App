@@ -1,11 +1,7 @@
 import Action from "./Action_row.js";
 import Delete from "./delete.js";
 import {movie_list} from "./movie_list.js";
-
 function Movie(props) {
-	const handleDelete = () => {
-    props.deleteMovie(props.movieDetails.id);
-    }
 	return (
 		<>
 			<div className="movie_row">
