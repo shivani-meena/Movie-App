@@ -31,12 +31,13 @@ body{
 .movie_row{
 	border-bottom:solid  1px #5e5e75;
 	height:300px;
-	width:930px;
+	width:980px;
 	margin:60px auto 10px auto;
 	}
 	
 .watch_2{
 	margin-top:120px;
+	margin-left:420px;
 	}
 
 	
@@ -100,7 +101,7 @@ h4{
 .action{
 	border:solid blue 1px;
 	height:40px;
-	width:700px;
+	width:750px;
 	margin-left:230px;
 	margin-top:5px;
 	font-size:20px;
@@ -113,6 +114,7 @@ h4{
 	float:right;
 	margin-bottom:100px;
 	cursor:pointer;
+	width:30px;
 	}
 	
 .rating{
@@ -126,11 +128,13 @@ h4{
 .like{
 	float:left;
 	cursor:pointer;
+	width:40px;
 	} 
 	
 .dislike{
 	float:left;
 	cursor:pointer;
+	width:40px;
 	}	
 	
 .rating{

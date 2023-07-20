@@ -20,7 +20,7 @@ function Movie(props) {
 					onClick={props.onClick}
 				/>
 			</div>
-		</div>
+	    </div>
 	    </>
 	);
 };

@@ -1,6 +1,7 @@
 "use client"
 import Header from "./header.js";
 import Movie from "./movie_row.js";
+import Rating from "./Rating.js";
 import Footer from "./footer.js";
 import {movie_list} from "./movie_list.js";
 import Delete from "./delete.js";
@@ -11,6 +12,7 @@ function Box(){
 		const newMovielist=movie.filter((items)=>items.id!==id);
 		setMovie(newMovielist)
 	};
+	
 	return (
 		<>
 			<Header/>
@@ -29,69 +31,5 @@ function Box(){
 	);	
 };
 export default Box;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

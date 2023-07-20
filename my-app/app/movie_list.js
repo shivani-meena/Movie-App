@@ -4,7 +4,7 @@ export const movie_list = [{
 	year: '2016',
 	time: '2h 31m',
 	jenre: 'Drama, Romance',
-	description:'kaira is a building cinemagrapher in search of a perfect life. her encounter with jug, an unconventional thinker.helps her gain a new perspective on life .she discovers that happiness ia all about finding comfort in life"s imperfections',
+	description:'kaira is a building cinemagrapher in search of a perfect life. her encounter with jug, an unconventional thinker.helps her gain a new perspective on life .she discovers that happiness ia all about finding comfort in life"s imperfections.',
 	image_url:'movie_one.png',
 	},
 {
@@ -23,7 +23,7 @@ export const movie_list = [{
 	year: '2016',
 	time: '1h 47m',
 	jenre: 'Adventures, comedy',
-	description:'In ancient polynesia when a teritible curse incurred by the demingold maui reaches maona"s island .she answers the ocean call to seek out the demingold to set the things right',
+	description:'In ancient polynesia when a teritible curse incurred by the demingold maui reaches maona"s island .she answers the ocean call to seek out the demingold to set the things right.',
 	image_url:'movie_three.png',
 	}, 
 	
@@ -53,7 +53,7 @@ export const movie_list = [{
 	year: '2011',
 	time: '1h 52m',
 	jenre: 'Drama, Biography, Family',
-	description:"Teenage surfer Bethany Hamilton overcomes the odds and her own fears of returning to the water after losing her left arm in a shark attacks",
+	description:"Teenage surfer Bethany Hamilton overcomes the odds and her own fears of returning to the water after losing her left arm in a shark attacks.",
 	image_url:'movie_six.png',
 	}, 
 	
@@ -94,7 +94,7 @@ export const movie_list = [{
 	year: '2011',
 	time: '1h 52m',
 	jenre: 'Drama, Biograpgy',
-	description:"After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver",
+	description:"After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
 	image_url:'movie_ten.png',
 	}, 
 ]

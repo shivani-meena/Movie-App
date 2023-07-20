@@ -5,11 +5,11 @@ function Rating() {
 
   const handleLikeClick = () => {
     setCount(count + 1);
-  };
+  }
 
   const handleDislikeClick = () => {
     setCount(count - 1);
-  };
+  }
 
   return (
     <>
@@ -21,5 +21,4 @@ function Rating() {
 }
 
 export default Rating;
-
 
