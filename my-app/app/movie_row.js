@@ -1,30 +1,29 @@
-import Action from "./Action_row.js";
 import Delete from "./delete.js";
-import {movie_list} from "./movie_list.js";
-function Movie(props) {
+import Rating from "./rating.js";
+import Action_row from "./Action_row.js";
+import {initialMovieList} from "./movie_list.js";
+function Movie_row({movieDetails,onClickLikes,onClickDislikes,onDelete,likes}){
 	return (
-		<>
 		<div className="movie_row">
 			<div className="movie_image">
-				<img className="movie_image" src={props.movieDetails.image_url}/>
+				<img className="movie_image" src={movieDetails.image_url}/>
 			</div>
 			<div className="movie_details">
-				<h1>{props.movieDetails.movie}</h1>
-				<p>{props.movieDetails.year} • {props.movieDetails.time} | {props.movieDetails.jenre}</p>
+				<h1>{movieDetails.movieName}</h1>
+				<p>{movieDetails.year} • {movieDetails.time} | {movieDetails.jenre}</p>
 				<h4>description</h4>
-				<p>{props.movieDetails.description}</p>
+				<p>{movieDetails.description}</p>
 			</div>
 			<div className="action">
-				<Action />
-				<Delete 
-					onClick={props.onClick}
-				/>
+			    <Action_row
+                    likes={movieDetails.likes}
+                    onClickLikes={onClickLikes}
+                    onClickDislikes={onClickDislikes}
+                    onDelete={onDelete}
+			     />
 			</div>
-	    </div>
-	    </>
+	  </div>
 	);
 };
-export default Movie;
-
-
+export default Movie_row;
 

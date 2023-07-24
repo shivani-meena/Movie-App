@@ -1,21 +1,11 @@
-import React, { useState } from 'react';
-import {movie_list} from "./movie_list.js";
-function Rating() {
-  const [count, setCount] = useState(0);
+import React from 'react';
 
-  const handleLikeClick = () => {
-    setCount(count + 1);
-  }
-
-  const handleDislikeClick = () => {
-    setCount(count - 1);
-  }
-
+function Rating({ onClickLikes, onClickDislikes, likes }) {
   return (
     <>
-      <img className ="like" src="Icon-Like.png" onClick={handleLikeClick} />
-      <div className="rating">{count}</div>
-      <img className="dislike" src="Icon-Dislike.png" onClick={handleDislikeClick} />
+      <img className="like" src="Icon-Like.png" onClick={onClickLikes} />
+      <div className="rating">{likes}</div>
+      <img className="dislike" src="Icon-Dislike.png" onClick={onClickDislikes} />
     </>
   );
 }
