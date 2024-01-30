@@ -46,7 +46,7 @@ function page(){
         		movieDetails={movieDetails}
         		onDelete={() => handleDelete(movieDetails.id)}
         		onClickLikes={()=>handleLike(movieDetails.id)}
-			    onClickDislikes={()=>handleDislike(movieDetails.id)}
+			      onClickDislikes={()=>handleDislike(movieDetails.id)}
 		    />
 		    ))};
 		    <Footer />
@@ -54,9 +54,6 @@ function page(){
 	);	
 };
 export default page;
-
-
-
 
 
 

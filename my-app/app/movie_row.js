@@ -1,7 +1,6 @@
 import Delete from "./delete.js";
 import Rating from "./rating.js";
 import Action_row from "./Action_row.js";
-import {initialMovieList} from "./movie_list.js";
 function Movie_row({movieDetails,onClickLikes,onClickDislikes,onDelete,likes}){
 	return (
 		<div className="movie_row">
@@ -26,4 +25,3 @@ function Movie_row({movieDetails,onClickLikes,onClickDislikes,onDelete,likes}){
 	);
 };
 export default Movie_row;
-

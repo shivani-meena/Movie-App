@@ -11,4 +11,3 @@ function Rating({ onClickLikes, onClickDislikes, likes }) {
 }
 
 export default Rating;
-

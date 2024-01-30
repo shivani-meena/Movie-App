@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  
   "dependencies": {
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
@@ -16,3 +17,4 @@
     "react-dom": "18.2.0"
   }
 }
+

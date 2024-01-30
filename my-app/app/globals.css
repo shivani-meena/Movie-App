@@ -16,7 +16,7 @@ body{
 	border-bottom:solid red 1px;
 	height:150px;
 	margin-bottom:100px;
-	}
+}
 	
 	
 .div{
@@ -25,6 +25,7 @@ body{
 	}
 	
 .header_image{
+	height:60px;
 	margin:30px 0px 0px 120px;
 	}
 
@@ -151,7 +152,10 @@ h4{
 	}
 	
 .addMovie{
-	height:20px;
+	height:30px;
+	color: aliceblue;
+	font-size: 20px;
+	font-weight: 400px;
 	}
 	
 .para{
@@ -161,7 +165,7 @@ h4{
 .addbutton{
 	margin-top:25px;
 	height:65px;
-	}
+}
 	
 	
 	
